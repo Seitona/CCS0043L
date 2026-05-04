@@ -51,7 +51,7 @@
 <div class="container">
 
     <div class="header">
-        <strong>Name:</strong> Your Name &nbsp;&nbsp;&nbsp;
+        <strong>Name:</strong> John Jeiven Tejuco &nbsp;&nbsp;&nbsp;
         <strong>Date:</strong> <?php echo date("Y-m-d"); ?>
     </div>
 
