@@ -1,5 +1,5 @@
 <div class="story">
-    <img src="images/story3.jpg" alt="Story 3">
-    <h2>The Magic Pencil</h2>
-    <p>A student discovered that everything he drew became real. He used the pencil to help people and make his school beautiful.</p>
+    <img src="images/leanne.jpg" alt="Leanne">
+    <h2>Leanne’s Study Group</h2>
+    <p>Leanne noticed that some classmates were struggling with their lessons, so she invited them to a small study session after school. She patiently explained the topics and helped everyone prepare for the quiz. Because of her kindness, the whole group passed the exam.</p>
 </div>

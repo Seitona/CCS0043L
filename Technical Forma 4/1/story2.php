@@ -1,5 +1,5 @@
 <div class="story">
-    <img src="images/story2.jpg" alt="Story 2">
-    <h2>The Brave Cat</h2>
-    <p>A small cat saved a village by warning everyone about a fire. From that day on, the villagers treated the cat like a hero.</p>
+    <img src="images/zyland.jpg" alt="Zyland Azriel">
+    <h2>Zyland and the Basketball Game</h2>
+    <p>Zyland organized a friendly basketball game at the school court one weekend. Even though his team lost, he made everyone laugh with his jokes and encouraged his teammates to enjoy the game instead of worrying about the score.</p>
 </div>

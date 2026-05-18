@@ -1,5 +1,5 @@
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> Short Story Collection</p>
+    <p>&copy; <?php echo date("Y"); ?> Teuco Short Story</p>
 </footer>
 </body>
 </html>
