@@ -31,41 +31,7 @@ if (isset($_POST['save'])) {
 <html>
 <head>
     <title>Dog Register</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            width: 400px;
-            margin: 30px auto;
-        }
-
-        input {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 8px;
-            font-size: 16px;
-        }
-
-        button {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        .message {
-            text-align: center;
-            color: green;
-            margin-bottom: 10px;
-        }
-
-        a {
-            display: block;
-            text-align: center;
-            margin-top: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -96,11 +62,16 @@ if (isset($_POST['save'])) {
         <label>Weight</label>
         <input type="text" name="weight" required>
 
-        <button type="submit" name="save" style="background-color: #4CAF50; color: white;">save</button>
+        <button type="submit" name="save">Save</button>
     </form>
 
-    <a href="DogView.php">View Dog Records</a>
-    <p>© 3T Sahur</p>
+    <div class="link">
+        <a href="DogView.php">View Dog Records</a>
+    </div>
+
+    <div class="footer">
+        © 3T Sahur
+    </div>
 </div>
 
 </body>

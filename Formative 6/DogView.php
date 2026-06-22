@@ -14,33 +14,14 @@ $count = 1;
 <html>
 <head>
     <title>Dog Records</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            width: 700px;
-            margin: 30px auto;
-        }
-
-        .dog-box {
-            border: 2px solid #555;
-            padding: 10px;
-            margin-bottom: 15px;
-        }
-
-        a {
-            display: block;
-            margin-bottom: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+<div class="container view-container">
     <h2>Dog Records</h2>
-    <a href="DogRegister.php">Add New Dog</a>
+
+    <a href="DogRegister.php" class="back-link">← Add New Dog</a>
 
     <?php
     if (mysqli_num_rows($result) > 0) {
@@ -55,10 +36,11 @@ $count = 1;
             echo "Height: " . $row['d_height'] . "<br>";
             echo "Weight: " . $row['d_weight'] . "<br>";
             echo "</div>";
+
             $count++;
         }
     } else {
-        echo "No dog records found.";
+        echo "<p>No dog records found.</p>";
     }
 
     mysqli_close($conn);
